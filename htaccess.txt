@@ -1,0 +1,6 @@
+# Begin password protection #
+AuthName "Restricted Area"
+Require valid-user
+AuthUserFile "/home4/ery1nwur/public_html/.htpasswd"
+AuthType basic
+# End password protection #
